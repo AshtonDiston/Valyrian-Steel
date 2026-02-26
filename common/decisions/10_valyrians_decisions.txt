@@ -6,7 +6,7 @@
 	
 	sort_order = 88
 	cost = {
-		gold = 500
+		gold = 2500
 	}
 	desc = fund_expedition_decision_desc_1
 	selection_tooltip = fund_expedition_decision_desc_2

@@ -365,7 +365,7 @@ fund_expedition.00021 = {
 	###Find me a Dragon egg
 	option = {
 		trigger = {
-			gold > 200
+			gold > 750
 		}
 		custom_tooltip = fund_expedition.00021.tt.a
 		show_as_unavailable = {
@@ -376,7 +376,7 @@ fund_expedition.00021 = {
 			value = flag:egg
 		}
 
-		remove_short_term_gold = 200
+		remove_short_term_gold = 750
 		name = fund_expedition_00021.a
 		trigger_event = {
 			id = fund_expedition.0002
@@ -387,7 +387,7 @@ fund_expedition.00021 = {
 	##Find me a Valyrian Steel Weapon
 	option = {
 		trigger = {
-			gold > 200
+			gold > 750
 		}
 		show_as_unavailable = {
 			always = yes
@@ -397,7 +397,7 @@ fund_expedition.00021 = {
 			value = flag:weapon
 		}
 		custom_tooltip = fund_expedition.00021.tt.b
-		remove_short_term_gold = 200
+		remove_short_term_gold = 750
 
 		name = fund_expedition_00021.b
 		trigger_event = {
@@ -408,7 +408,7 @@ fund_expedition.00021 = {
 	##Find me a Trinket
 	option = {
 		trigger = {
-			gold > 100
+			gold > 250
 		}
 		show_as_unavailable = {
 			always = yes
@@ -418,7 +418,7 @@ fund_expedition.00021 = {
 			value = flag:trinket
 		}
 		custom_tooltip = fund_expedition.00021.tt.c
-		remove_short_term_gold = 100
+		remove_short_term_gold = 250
 
 		
 		name = fund_expedition_00021.c
@@ -494,7 +494,7 @@ fund_expedition.0003 = {
 	immediate = {
 		random_list = {
 			## Person dies/does not return
-			3 = {
+			8 = {
 				trigger_event = {
 					id = fund_expedition.0004
 					days = {30 60}
@@ -512,15 +512,8 @@ fund_expedition.0003 = {
 					days = {30 60}
 				}
 			}
-			## Person does return, but they are injured
-			3 = {
-				trigger_event = {
-					id = fund_expedition.0005
-					days = {30 60}
-				}
-			}
 			##SUCCESS RETURN
-			4 = {
+			1 = {
 				trigger_event = {
 					id = fund_expedition.0010
 					days = {30 60}
