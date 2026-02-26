@@ -342,7 +342,7 @@ fund_expedition.0001 = {
 	option = {
 		name = health.3001.d.more
 		remove_decision_cooldown = fund_expedition_decision 
-		add_gold = 500
+		add_gold = 2500
 		ai_chance = {
 			factor = 0
 		}
