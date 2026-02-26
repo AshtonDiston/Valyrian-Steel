@@ -43,7 +43,7 @@ All of the following artifacts can be obtained through the **Fund Expedition** d
 
 ## Fund Expedition to Old Valyria – Outcome Chances
 
-The decision costs **500 Gold** and has a **10-year cooldown** (the cooldown is removed if the expedition leader dies without returning an artifact).
+The decision costs **2500 Gold** and has a **10-year cooldown** (the cooldown is removed if the expedition leader dies without returning an artifact).
 
 ### Step 1 – Choosing your explorer
 
@@ -55,29 +55,28 @@ After choosing your explorer, you may pay additional gold to focus the search:
 
 | Focus | Extra Cost | Guaranteed Artifact |
 |---|---|---|
-| Find a Dragon Egg | +200 Gold | Dragon Egg (100%) |
-| Find a Valyrian Steel Weapon | +200 Gold | Valyrian Steel weapon (100%) |
-| Find a Trinket | +100 Gold | One random trinket (equal chance) |
+| Find a Dragon Egg | +750 Gold | Dragon Egg (100%) |
+| Find a Valyrian Steel Weapon | +750 Gold | Valyrian Steel weapon (100%) |
+| Find a Trinket | +750 Gold | One random trinket (equal chance) |
 | Find Anything | +0 Gold | Random artifact (see odds below) |
 
 ### Step 3 – Expedition outcome
 
-After roughly 30–60 days, one of four outcomes occurs:
+After roughly 30–60 days, one of three outcomes occurs:
 
 | Outcome | Weight | Probability (epidemics on) | Probability (epidemics off) |
 |---|---|---|---|
-| **Leader dies / does not return** – No artifact; expedition cooldown is refunded | 3 | ~27.3% | 30% |
-| **Leader returns extremely sick** – Brings back an artifact but is gravely ill (disease) | 1 | ~9.1% | N/A (disabled) |
-| **Leader returns injured** – Brings back an artifact but is wounded | 3 | ~27.3% | 30% |
-| **Successful return** – Leader returns unharmed with an artifact | 4 | ~36.4% | 40% |
+| **Leader dies / does not return** – No artifact; expedition cooldown is refunded | 8 | 80% | ~88.9% |
+| **Leader returns extremely sick** – Brings back an artifact but is gravely ill (disease) | 1 | 10% | N/A (disabled) |
+| **Successful return** – Leader returns unharmed with an artifact | 1 | 10% | ~11.1% |
 
-> **Note:** The "sick return" outcome only fires when the *epidemic_frequency_disabled* game rule is **not** active. When epidemics are disabled (*epidemic_frequency_disabled* is active), that outcome is skipped and the total weight is 10 (not 11).
+> **Note:** The "sick return" outcome only fires when the *epidemic_frequency_disabled* game rule is **not** active. When epidemics are disabled (*epidemic_frequency_disabled* is active), that outcome is skipped and the total weight is 9 (not 10).
 >
-> In **3 out of 4** outcomes (sick, injured, and successful) the expedition leader still brings back an artifact. Only if the leader dies do you receive nothing.
+> In **2 out of 3** outcomes (sick and successful) the expedition leader brings back an artifact. Only if the leader dies do you receive nothing.
 
 **Overall chance of receiving an artifact:**
-- Epidemics **enabled**: 8 ÷ 11 ≈ **72.7%**
-- Epidemics **disabled**: 7 ÷ 10 = **70%**
+- Epidemics **enabled**: 2 ÷ 10 = **20%**
+- Epidemics **disabled**: 1 ÷ 9 ≈ **11.1%**
 
 ### Step 4 – Artifact rolled (when no focus is chosen)
 
@@ -98,11 +97,11 @@ When you choose "Find a Trinket" (+100 Gold), the trinket pool is expanded and e
 
 | Result | Combined chance |
 |---|---|
-| Get a Valyrian Steel weapon | 72.7% × 34.4% ≈ **25.0%** |
-| Get a Dragon Egg | 72.7% × 34.4% ≈ **25.0%** |
-| Get a Dragon Horn | 72.7% × 5.2% ≈ **3.8%** |
-| Get a Dragon Whip | 72.7% × 5.2% ≈ **3.8%** |
-| Get a Valyrian Book | 72.7% × 5.2% ≈ **3.8%** |
-| Get a Glass Candle | 72.7% × 7.8% ≈ **5.7%** |
-| Get a Valyrian Steel Goblet | 72.7% × 7.8% ≈ **5.7%** |
-| Expedition leader dies, no artifact | ≈ **27.3%** |
+| Get a Valyrian Steel weapon | 20% × 34.4% ≈ **6.9%** |
+| Get a Dragon Egg | 20% × 34.4% ≈ **6.9%** |
+| Get a Dragon Horn | 20% × 5.2% ≈ **1.0%** |
+| Get a Dragon Whip | 20% × 5.2% ≈ **1.0%** |
+| Get a Valyrian Book | 20% × 5.2% ≈ **1.0%** |
+| Get a Glass Candle | 20% × 7.8% ≈ **1.6%** |
+| Get a Valyrian Steel Goblet | 20% × 7.8% ≈ **1.6%** |
+| Expedition leader dies, no artifact | **80%** |

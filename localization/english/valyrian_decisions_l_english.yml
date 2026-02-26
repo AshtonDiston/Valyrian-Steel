@@ -148,9 +148,9 @@ fund_expedition_00021.c:0 "Bring back a Trinket..."
 fund_expedition_00021.d:0 "Anything will do..."
 fund_expedition_00021.e:0 "Nevermind, cancel the trip..."
 
-fund_expedition.00021.tt.a:0 "For 200 Gold [choice.GetFirstName] will focus on finding Dragon Eggs"
-fund_expedition.00021.tt.b:0 "For 200 Gold [choice.GetFirstName] will focus on finding Valyrian Steel Weapons"
-fund_expedition.00021.tt.c:0 "For 100 Gold [choice.GetFirstName] will focus on finding Minor Trinkets"
+fund_expedition.00021.tt.a:0 "For 750 Gold [choice.GetFirstName] will focus on finding Dragon Eggs"
+fund_expedition.00021.tt.b:0 "For 750 Gold [choice.GetFirstName] will focus on finding Valyrian Steel Weapons"
+fund_expedition.00021.tt.c:0 "For 750 Gold [choice.GetFirstName] will focus on finding Minor Trinkets"
 fund_expedition.00021.tt.d:0 "[choice.GetFirstName] will focus on finding Dragon Eggs at no additional cost"
 
 
