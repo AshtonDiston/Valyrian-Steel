@@ -408,7 +408,7 @@ fund_expedition.00021 = {
 	##Find me a Trinket
 	option = {
 		trigger = {
-			gold > 750
+			gold > 250
 		}
 		show_as_unavailable = {
 			always = yes
@@ -418,7 +418,7 @@ fund_expedition.00021 = {
 			value = flag:trinket
 		}
 		custom_tooltip = fund_expedition.00021.tt.c
-		remove_short_term_gold = 750
+		remove_short_term_gold = 250
 
 		
 		name = fund_expedition_00021.c

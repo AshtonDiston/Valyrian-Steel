@@ -57,7 +57,7 @@ After choosing your explorer, you may pay additional gold to focus the search:
 |---|---|---|
 | Find a Dragon Egg | +750 Gold | Dragon Egg (100%) |
 | Find a Valyrian Steel Weapon | +750 Gold | Valyrian Steel weapon (100%) |
-| Find a Trinket | +750 Gold | One random trinket (equal chance) |
+| Find a Trinket | +250 Gold | One random trinket (equal chance) |
 | Find Anything | +0 Gold | Random artifact (see odds below) |
 
 ### Step 3 – Expedition outcome
